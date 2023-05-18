@@ -90,7 +90,6 @@ p{
 }
 
 .box1{
-    background-color: aqua;
     background-image: url("./pic-1.png");
     background-size: cover;
     border-radius: 20px;
@@ -98,7 +97,6 @@ p{
 }
 
 .box2{
-    background-color: aqua;
     background-image: url("./pic-2.png");
     background-size: cover;
     border-radius: 20px;
@@ -106,7 +104,6 @@ p{
 }
 
 .box3{
-    background-color: aqua;
     background-image: url("./pic-3.png");
     background-size: cover;
     border-radius: 20px;
@@ -114,7 +111,6 @@ p{
 }
 
 .box4{
-    background-color: aqua;
     background-image: url("./pic-4.png");
     background-size: cover;
     border-radius: 20px;
@@ -187,7 +183,6 @@ p{
 
     
 .box1{
-    background-color: aqua;
     background-image: url("./pic-1.png");
     background-size: cover;
     border-radius: 20px;
@@ -196,7 +191,6 @@ p{
 }
 
 .box2{
-    background-color: aqua;
     background-image: url("./pic-2.png");
     background-size: cover;
     border-radius: 20px;
@@ -205,7 +199,6 @@ p{
 }
 
 .box3{
-    background-color: aqua;
     background-image: url("./pic-3.png");
     background-size: cover;
     border-radius: 20px;
@@ -214,7 +207,6 @@ p{
 }
 
 .box4{
-    background-color: aqua;
     background-image: url("./pic-4.png");
     background-size: cover;
     border-radius: 20px;
@@ -281,7 +273,6 @@ p{
     }
   
     .box1{
-        background-color: aqua;
         background-image: url("./pic-1.png");
         background-size: cover;
         border-radius: 20px;
@@ -291,7 +282,6 @@ p{
     }
     
     .box2{
-        background-color: aqua;
         background-image: url("./pic-2.png");
         background-size: cover;
         border-radius: 20px;
@@ -301,7 +291,6 @@ p{
     }
     
     .box3{
-        background-color: aqua;
         background-image: url("./pic-3.png");
         background-size: cover;
         border-radius: 20px;
@@ -311,7 +300,6 @@ p{
     }
     
     .box4{
-        background-color: aqua;
         background-image: url("./pic-4.png");
         background-size: cover;
         border-radius: 20px;
