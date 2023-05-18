@@ -73,6 +73,11 @@ ul li{
     column-gap: 40px;
 }
 
+.box:hover{
+    transition: all 1s;
+    transform: translateY(-10px);
+}
+
 .h1{
     color: aliceblue;
     font-size: 100px;
@@ -126,7 +131,7 @@ p{
 /*########### Media query start ##########*/
 
 
-@media screen and (max-width:800px) {
+@media screen and (min-width:200px) and (max-width:700px) {
     body{
         background-image: url("./shara\ desert.jpg");
         background-repeat: repeat;
@@ -166,7 +171,7 @@ p{
         display: grid;
         grid-template-columns: auto;
         align-items: center;
-        row-gap: 10px;
+        row-gap: 50px;
     }
     
     .h1{
@@ -216,6 +221,106 @@ p{
     padding: 10px;
     height: 300px;
 }
+
+}
+
+
+@media screen and (min-width:700px) and (max-width:900px) {
+    body{
+        background-image: url("./shara\ desert.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    
+    .button{
+        width: 150px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: aliceblue;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    
+    .saharagrid{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 150px;
+    }
+    .sahara{
+        width:50%;
+        display: block;
+        padding-left: 80px;
+        padding-bottom: 20px;
+    }
+    .gid{
+        width: 50%;
+        display: block;
+    }
+    
+    .grid{
+        width: 500px;
+        height: 550px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        row-gap: 50px;
+    }
+    
+    .h1{
+        color: aliceblue;
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    
+    p{
+        color: aliceblue;
+        font-size: 18px;
+    }
+  
+    .box1{
+        background-color: aqua;
+        background-image: url("./pic-1.png");
+        background-size: cover;
+        border-radius: 20px;
+        padding: 10px;
+        height: 350px;
+        width: 600px;
+    }
+    
+    .box2{
+        background-color: aqua;
+        background-image: url("./pic-2.png");
+        background-size: cover;
+        border-radius: 20px;
+        padding: 10px;
+        height: 350px;
+        width: 600px;
+    }
+    
+    .box3{
+        background-color: aqua;
+        background-image: url("./pic-3.png");
+        background-size: cover;
+        border-radius: 20px;
+        padding: 10px;
+        height: 350px;
+        width: 600px;
+    }
+    
+    .box4{
+        background-color: aqua;
+        background-image: url("./pic-4.png");
+        background-size: cover;
+        border-radius: 20px;
+        padding: 10px;
+        height: 350px;
+        width: 600px;
+    }
+    
+    }
 
 }
 
